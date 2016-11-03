@@ -1,0 +1,5 @@
+
+0(22) : error C7563: assignment to uniform uZ01
+0(26) : error C7563: assignment to uniform uZ20
+0(30) : error C7563: assignment to uniform uZ12
+
