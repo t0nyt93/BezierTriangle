@@ -19,9 +19,7 @@ main( )
 	Eye = normalize(gEs);
 	
 	vec4 ambient = uKa * uColor;
-
-	float d = max(dot(Normal,Light),0.);
-	vec4 diffuse = uKd * d * uColor;
+	vec4 diffuse = uKd * uColor;
 
 	float s = 0.;
 	if(dot(Normal,Light) > 0.)
